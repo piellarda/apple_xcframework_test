@@ -1,0 +1,12 @@
+opt_out_usage
+default_platform(:ios)
+
+lane :build do
+  sh "cd .. && bazel build --apple_bitcode=embedded MyLib/MyLib"
+  sh "cd ../bazel-bin/MyLib && tar -xvf MyLib.xcframework.zip"
+  gym(
+    project: 'MyTestApp/MyTestApp.xcodeproj',
+    scheme: 'MyTestApp',
+    export_method: 'ad-hoc'
+  )
+end
