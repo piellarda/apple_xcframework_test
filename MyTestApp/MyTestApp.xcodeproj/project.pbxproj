@@ -35,7 +35,7 @@
 		717902C52816D3CD0009A849 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		717902C72816D3CD0009A849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		717902CA2816D3CD0009A849 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		71D01DB52816FA7E00F955C9 /* MyLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLib.xcframework; path = "../../../../../../var/tmp/_bazel_antoine/e3bbbe9d17000c347355e316959b75c7/execroot/rules_apple_test/bazel-out/darwin_arm64-fastbuild/bin/MyLib/MyLib.xcframework"; sourceTree = "<group>"; };
+		71D01DB52816FA7E00F955C9 /* MyLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MyLib.xcframework; path = "../bazel-bin/MyLib/MyLib.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
