@@ -12,4 +12,5 @@ This is a Xcode project for an iOS application that embeds the MyLib XCFramework
 ## How to use
 - Open the Xcode project inside MyTestApp and add your AdHoc provisioning profile for release build.
 - Run `bundle install` to install fastlane.
-- Run `bundle exec fastlane build` to invoke Bazel and archive the iOS application.
+- Run `bundle exec fastlane build` to invoke Bazel to build MyLib and archive the iOS application.
+- Run `bundle exec fastlane build_no_bazel` will build MyLib without Bazel and achive the iOS application.
