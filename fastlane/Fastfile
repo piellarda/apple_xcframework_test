@@ -10,3 +10,12 @@ lane :build do
     export_method: 'ad-hoc'
   )
 end
+
+lane :build_no_bazel do
+  sh "../MyLib/build_xcframework.sh"
+  gym(
+    project: 'MyTestApp/MyTestApp.xcodeproj',
+    scheme: 'MyTestApp_no_bazel',
+    export_method: 'ad-hoc'
+  )
+end
